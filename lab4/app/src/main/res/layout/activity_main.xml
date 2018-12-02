@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/screenLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/sync"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+     android:ems="9"
+        android:text="@string/sync"
+        android:onClick="onClick"
+        />
+
+    <Button
+        android:id="@+id/async"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:ems="9"
+        android:text="@string/async"
+        android:onClick="onClick1"
+        />
+
+    <Button
+        android:id="@+id/control"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="9"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="50dp"
+        android:text="@string/control"
+        android:onClick="onClick2"
+        />
+
+    <ImageView
+        android:id="@+id/first"
+        android:layout_width="262dp"
+        android:layout_height="212dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="137dp"
+        android:src="@drawable/cat" />
+
+    <ImageView
+        android:id="@+id/second"
+        android:layout_width="214dp"
+        android:layout_height="180dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="97dp"
+        android:layout_marginTop="331dp"
+        android:src="@drawable/poni" />
+
+    <EditText
+        android:id="@+id/duration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="422dp"
+        android:ems="9"
+        android:hint="задать длительность"
+        android:inputType="number" />
+
+
+
+</RelativeLayout>
