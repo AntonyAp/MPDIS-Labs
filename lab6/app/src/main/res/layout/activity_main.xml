@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity" >
+
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_name"
+        android:hint="File Name" />
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_name"
+        android:layout_marginTop="20dp"
+        android:id="@+id/et_content"
+        android:hint="Surname group faculty" />
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/b_save"
+        android:layout_below="@id/et_content"
+        android:text="Add  student" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/b_read"
+        android:layout_below="@id/et_read"
+        android:text="View students" />
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_read"
+        android:hint="file to read from "
+        android:layout_below="@id/b_save"/>
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/b_read"/>
+
+
+</RelativeLayout>
+
