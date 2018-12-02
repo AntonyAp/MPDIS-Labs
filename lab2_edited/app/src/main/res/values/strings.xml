@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">lab2</string>
+        <string name="nameinput">Name</string>
+        <string name="surnameinput">Surname</string>
+        <string name="middlenameinput">Middle name</string>
+        <string name="groupnumberinput">Group number</string>
+        <string name="facultyinput">Faculty</string>
+        <string name="button">Submit</string>
+    <string name="info">Карточка студента</string>
+</resources>

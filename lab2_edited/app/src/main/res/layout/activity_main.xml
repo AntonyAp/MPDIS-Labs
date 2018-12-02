@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="55dp"
+        android:text="Input your info "
+        android:textSize="18sp" />
+
+
+
+    <EditText
+        android:id="@+id/surnameinput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:layout_below="@+id/textView2"
+        android:hint="@string/surnameinput"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/nameinput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/surnameinput"
+        android:ems="10"
+        android:hint="@string/nameinput"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/middlenameinput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nameinput"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="@string/middlenameinput"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/groupnumberinput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/middlenameinput"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="@string/groupnumberinput"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/facultyinput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/groupnumberinput"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="@string/facultyinput"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="101dp"
+        android:text="@string/button" />
+
+</RelativeLayout>
