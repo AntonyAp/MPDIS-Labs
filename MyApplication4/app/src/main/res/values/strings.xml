@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application4</string>
+    <string name="btn_name_one">Move</string>
+    <string name="btn_name_two">Rotate</string>
+    <string name="btn_name_three">Full</string>
+    <string name="btn_name_four">Transparency</string>
+</resources>
