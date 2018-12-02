@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">lab3</string>
+    <string name="switchtogreen">Green</string>
+    <string name="switchtored">Red</string>
+    <string name="switchtoblue">Blue</string>
+    <string name="switchtoyellow">Yellow</string>
+    <string name="about">Info</string>
+    <string name="info">Information about developers</string>
+</resources>
